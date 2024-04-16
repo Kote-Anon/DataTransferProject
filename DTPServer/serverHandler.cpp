@@ -56,14 +56,32 @@ void runServer() {
 
     std::vector<std::thread> threads;
 
-    while (true) {
-        if ((new_socket = accept(server_fd, (struct sockaddr *)&address, (socklen_t*)&addrlen))<0) {
+    bool serverRunning = true;
+    while (serverRunning) {
+        if ((new_socket = accept(server_fd, (struct sockaddr *)&address, (socklen_t*)&addrlen)) < 0) {
             perror("accept");
             exit(EXIT_FAILURE);
         }
 
+        // Handle client in a separate thread
         threads.emplace_back(handleClient, new_socket);
+
+        // Check for input to close the server
+        std::string userInput;
+        std::cin >> userInput;
+        if (userInput == ".close") {
+            serverRunning = false;
+        }
     }
 
+    // Close all client connections
+    for (auto& thread : threads) {
+        if (thread.joinable()) {
+            thread.join();
+        }
+    }
+
+    // Close the server socket
     close(server_fd);
+    std::cout << "Server closed." << std::endl;
 }
