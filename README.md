@@ -14,7 +14,7 @@ This project is mainly created to learn myself how does networking and GIT work,
 
 ### Prerequisites
 
-- GCC 3.x
+- GCC 11.4.0 (lower gcc versions to be tested)
 - A network connection between the server and client(s)
 
 ### Installation
