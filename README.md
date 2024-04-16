@@ -1,13 +1,13 @@
 # Data Transfer Server and Client
 
-This project is a simple file(.cvs for now) transfer server and client. It's a simple, socket based project build with cmake and C++. 
+This project is a simple file transfer server and client. It's a simple, socket based project build with cmake and C++. 
 This project is mainly created to learn myself how does networking and GIT work, future plans are mainly to be considered while working with this project. 
 
 ## Features
 
 - **Server (DTPServer folder):** Simple server, recieves and stores send files from clients, future features are to be expanded in the future.   
 - **Client (DTPClient):** Simple client, sends data to server, saves computer info, future features are to be expanded in the future.
-- **File Transfer:** Supports only .cvs files, only Client to Server file transfer (to be reworked in future).
+- **File Transfer:** File transfer from client to server works on any type of data.
 - **Error Handling:** Includes basic error handling for connection issues and file transfer failures.
 
 ## Getting Started
@@ -56,9 +56,9 @@ This will start server
 
 To close server you need to type 
 ```bash
-close
+.close
 ```
-after recieving any data or error server will close ensuring all files are working
+and after recieving any data or error server will close ensuring all files are saved and working.
 
 ### Starting Client and sending data
 
@@ -82,10 +82,10 @@ make
 4. Start client and sending data
 
 ```bash
-./dtpc <file_name>.cvs
+./dtpc <file_name(add directory if needed)>
 ```
 
-this will send .cvs file and save computer data.
+this will send a file and save computer data.
 
 ## Contribiuting
 
