@@ -17,5 +17,5 @@
 # Specific Files #
 ##################
 #Specific files i don't want to be seen by others :P
-*ComputerData.csv
-*DTL.txt
+ComputerData.csv
+DTL.txt
