@@ -1,4 +1,4 @@
-// fileHandler.cpp
+//fileHandler.cpp
 
 #include <iostream>
 #include <fstream>
@@ -10,29 +10,30 @@
 #include <vector>
 #include <ctime> // for timestamp
 #include <sys/stat.h>
+#include <filesystem> // for filesystem operations
 
 #define PORT 8080
 #define BUFFER_SIZE 1024
 
-std::string generateFilename() {
-    // Create DataFolder if it doesn't exist
-    const char* folder_name = "DataFolder";
-    if (mkdir(folder_name, 0777) == -1) {
-        // If folder already exists or creation fails for some reason, continue
-        if (errno != EEXIST) {
-            perror("mkdir");
-            exit(EXIT_FAILURE);
-        }
-    }
+std::string generateFilename(const std::string& originalFilename) {
+    // Create ReceivedFiles folder if it doesn't exist
+    const std::string folder_name = "ReceivedFiles";
+    std::filesystem::create_directory(folder_name);
 
+    // Extract file extension from original filename
+    size_t pos = originalFilename.find_last_of('.');
+    std::string file_extension = (pos != std::string::npos) ? originalFilename.substr(pos) : "";
+
+    // Generate unique filename with original file extension
     std::time_t now = std::time(nullptr);
     char timestamp[20];
     std::strftime(timestamp, sizeof(timestamp), "%Y%m%d%H%M%S", std::localtime(&now));
-    return std::string(folder_name) + "/Data_" + std::string(timestamp) + ".csv";
+    return folder_name + "/Data_" + std::string(timestamp) + file_extension;
 }
 
-void displayReceivedData(int socket, const std::string& filename) {
-    std::ofstream outfile(filename);
+void displayReceivedData(int socket, const std::string& originalFilename) {
+    std::string filename = generateFilename(originalFilename);
+    std::ofstream outfile(filename, std::ios::binary); // Open in binary mode
     if (!outfile.is_open()) {
         std::cerr << "Error: Unable to open file: " << filename << std::endl;
         return;
