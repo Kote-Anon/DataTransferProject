@@ -2,6 +2,8 @@
 #include "logHandler.cpp"
 #include "fileHandler.cpp" // Include file handling logic
 #include "dataTransferLog.cpp"
+#include <thread>
+#include <vector>
 
 
 void handleClient(int client_socket) {

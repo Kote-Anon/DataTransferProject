@@ -216,18 +216,8 @@ CMakeFiles/dtpc.dir/client.cpp.o: ../../client.cpp \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
-  /usr/include/c++/11/cstring \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  ../../dataSaver.cpp \
-  ../../fileTransfer.cpp
+  ../../dataSaver.cpp
 
-
-../../fileTransfer.cpp:
-
-/usr/include/string.h:
-
-/usr/include/c++/11/cstring:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
@@ -624,8 +614,6 @@ CMakeFiles/dtpc.dir/client.cpp.o: ../../client.cpp \
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/strings.h:
 
 /usr/include/c++/11/bits/sstream.tcc:
 
