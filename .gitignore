@@ -42,5 +42,9 @@
 ##################
 #Specific files i don't want to be seen by others :P
 
-DTPServer/out/build/DTL.txt
-DTPClient/out/build/ComputerData.csv
+*DTPServer/out/build/DTL.txt
+*DTPClient/out/build/ComputerData.csv
+
+# Folders #
+###########
+*DataFolder/
