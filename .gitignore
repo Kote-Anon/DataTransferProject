@@ -47,4 +47,5 @@ ComputerData.csv
 # Folders #
 ###########
 *DataFolder/
+*ReceivedFolder/
 *ReceivedFiles/
