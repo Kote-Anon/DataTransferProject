@@ -100,7 +100,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## License
 
-[Apache 2.0] (https://github.com/Kote-Anon/DataTransferProject/blob/main/LICENSE) 
+[Apache 2.0](https://github.com/Kote-Anon/DataTransferProject/blob/main/LICENSE) 
 
 ## Acknowledgments
 
