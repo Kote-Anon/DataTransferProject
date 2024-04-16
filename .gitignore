@@ -17,5 +17,6 @@
 # Specific Files #
 ##################
 #Specific files i don't want to be seen by others :P
-DTPClient/out/build/ComputerData.csv
+
 DTPServer/out/build/DTL.txt
+DTPClient/out/build/ComputerData.csv
