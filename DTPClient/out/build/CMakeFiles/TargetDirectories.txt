@@ -1,0 +1,7 @@
+/home/anon/DataTransferProject/DTPClient/out/build/CMakeFiles/dtpc.dir
+/home/anon/DataTransferProject/DTPClient/out/build/CMakeFiles/edit_cache.dir
+/home/anon/DataTransferProject/DTPClient/out/build/CMakeFiles/rebuild_cache.dir
+/home/anon/DataTransferProject/DTPClient/out/build/CMakeFiles/list_install_components.dir
+/home/anon/DataTransferProject/DTPClient/out/build/CMakeFiles/install.dir
+/home/anon/DataTransferProject/DTPClient/out/build/CMakeFiles/install/local.dir
+/home/anon/DataTransferProject/DTPClient/out/build/CMakeFiles/install/strip.dir

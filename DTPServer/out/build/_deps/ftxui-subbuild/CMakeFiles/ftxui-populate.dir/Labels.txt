@@ -1,0 +1,14 @@
+# Target labels
+ ftxui-populate
+# Source files and their labels
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate.rule
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate-complete.rule
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-build.rule
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-configure.rule
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-download.rule
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-install.rule
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-mkdir.rule
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-patch.rule
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-test.rule
+/home/anon/DataTransferProject/DTPServer/out/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-update.rule
