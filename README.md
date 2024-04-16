@@ -110,5 +110,5 @@ This project is created mainly to learn and study networking.
 
 For any questions, suggestions, or feedback, please feel free to contact the project maintainer:
 
-    :arrow_forward: Anthony
-    :arrow_forward: antonibedkowski+DTP@gmail.com
+:arrow_forward: Anthony
+:arrow_forward: antonibedkowski+DTP@gmail.com
