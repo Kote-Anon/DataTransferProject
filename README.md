@@ -87,7 +87,7 @@ make
 
 this will send .cvs file and save computer data.
 
-### Contribiuting
+## Contribiuting
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
@@ -98,13 +98,13 @@ Contributions are welcome! If you'd like to contribute to this project, please f
    5. Push to the branch (git push origin feature/new-feature).
    6. Create a new pull request.
 
-### License
+## License
 
-### Acknowledgments
+## Acknowledgments
 
 This project is created mainly to learn and study networking.
 
-### Contact Information
+## Contact Information
 
 For any questions, suggestions, or feedback, please feel free to contact the project maintainer:
 
